@@ -1,5 +1,5 @@
 ---
-title: "Sargassum"
+title: "<i>Sargassum</i>"
 excerpt: "<b>2025–present</b> · Environmental DNA and metabarcoding to understand sargassum biology in the Mexican Caribbean."
 collection: portfolio
 inicio: "2025-06b"

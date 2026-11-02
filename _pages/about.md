@@ -17,7 +17,7 @@ Líneas de investigación
 1. **Biodiversidad y sistemática molecular.** Identificación de especies con códigos de barras de ADN, construcción de bibliotecas de referencia para la ictiofauna del Golfo de California y detección de especies crípticas y poco visibles en censos tradicionales, como los peces criptobentónicos. ([Proyectos](/portfolio/3-golfo-de-california-edna/))
 2. **Ecología de poblaciones y comunidades, y monitoreo de ecosistemas.** Estructura de comunidades de peces, mamíferos marinos e invertebrados mediante ADN ambiental, censos visuales y colectas; diseño de muestreo y monitoreo de especies prioritarias como la vaquita marina y la totoaba. ([Vaquita](/portfolio/1-vaquita-edna/), [Totoaba](/portfolio/2-totoaba/))
 3. **Biología evolutiva y biogeografía.** Filogeografía, genómica del paisaje y conectividad en la península de Baja California y el Golfo de California, desde reptiles del desierto hasta peces de arrecife. ([Genómica del paisaje](/portfolio/7-genomica-paisaje/), [Del genoma al ensamblaje](/portfolio/8-genoma-ensamblaje/))
-4. **Respuesta de la biodiversidad al cambio global e impactos antropogénicos.** Resiliencia de comunidades coralinas y sus simbiontes, microbioma del sargazo y efecto de las presiones humanas en áreas naturales protegidas como Cabo Pulmo. ([Corales](/portfolio/9-symbiodiniaceae/), [Sargassum](/portfolio/6-sargassum/))
+4. **Respuesta de la biodiversidad al cambio global e impactos antropogénicos.** Resiliencia de comunidades coralinas y sus simbiontes, microbioma del sargazo y efecto de las presiones humanas en áreas naturales protegidas como Cabo Pulmo. ([Corales](/portfolio/9-symbiodiniaceae/), [*Sargassum*](/portfolio/6-sargassum/))
 
 Trayectoria
 ======

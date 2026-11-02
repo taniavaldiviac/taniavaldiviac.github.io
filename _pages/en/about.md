@@ -22,7 +22,7 @@ Research lines
 1. **Biodiversity and molecular systematics.** Species identification with DNA barcoding, reference libraries for the fish fauna of the Gulf of California, and detection of cryptic species that traditional surveys tend to miss, such as cryptobenthic fishes. ([Projects](/portfolio/en-3-golfo-de-california-edna/))
 2. **Population and community ecology, and ecosystem monitoring.** Structure of fish, marine mammal and invertebrate communities using environmental DNA, visual censuses and collections; sampling design and monitoring of priority species such as the vaquita and the totoaba. ([Vaquita](/portfolio/en-1-vaquita-edna/), [Totoaba](/portfolio/en-2-totoaba/))
 3. **Evolutionary biology and biogeography.** Phylogeography, landscape genomics and connectivity on the Baja California Peninsula and in the Gulf of California, from desert reptiles to reef fishes. ([Landscape genomics](/portfolio/en-7-genomica-paisaje/), [From genome to assemblage](/portfolio/en-8-genoma-ensamblaje/))
-4. **Biodiversity responses to global change and human impacts.** Resilience of coral communities and their symbionts, the sargassum microbiome, and the effect of human pressures on protected areas such as Cabo Pulmo. ([Corals](/portfolio/en-9-symbiodiniaceae/), [Sargassum](/portfolio/en-6-sargassum/))
+4. **Biodiversity responses to global change and human impacts.** Resilience of coral communities and their symbionts, the sargassum microbiome, and the effect of human pressures on protected areas such as Cabo Pulmo. ([Corals](/portfolio/en-9-symbiodiniaceae/), [*Sargassum*](/portfolio/en-6-sargassum/))
 
 Background
 ======

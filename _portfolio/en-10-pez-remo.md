@@ -1,5 +1,5 @@
 ---
-title: "Oarfish (Regalecus glesne)"
+title: "Oarfish (<i>Regalecus glesne</i>)"
 excerpt: "<b>2026–present</b> · Collaboration to study the oarfish (<i>Regalecus glesne</i>), a rarely observed deep-water fish."
 collection: portfolio
 inicio: "2026-02"

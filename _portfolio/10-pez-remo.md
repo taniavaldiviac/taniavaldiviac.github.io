@@ -1,5 +1,5 @@
 ---
-title: "Pez remo (Regalecus glesne)"
+title: "Pez remo (<i>Regalecus glesne</i>)"
 excerpt: "<b>2026–presente</b> · Colaboración para el estudio del pez remo (<i>Regalecus glesne</i>), un pez de aguas profundas rara vez observado."
 collection: portfolio
 inicio: "2026-02"

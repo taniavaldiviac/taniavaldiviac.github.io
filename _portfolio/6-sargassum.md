@@ -1,5 +1,5 @@
 ---
-title: "Sargassum"
+title: "<i>Sargassum</i>"
 excerpt: "<b>2025–presente</b> · ADN ambiental y metabarcoding para entender la biología del sargazo en el Caribe mexicano."
 collection: portfolio
 inicio: "2025-06b"
