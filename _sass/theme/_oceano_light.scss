@@ -1,0 +1,63 @@
+/* ==========================================================================
+  OCEANO THEME - LIGHT VERSION
+  Custom palette: deep ocean blue, sea-foam surfaces and a coral accent
+  ========================================================================== */
+/* Color codes used for the theme */
+$primary-color              : #0b4f6c;
+$accent-color               : #d9664a;
+$dark-primary-color         : mix(#000, $primary-color, 40%);
+$darker-primary-color       : mix(#000, $primary-color, 60%);
+$light-primary-color        : mix(#fff, $primary-color, 50%);
+$lighter-primary-color      : mix(#fff, $primary-color, 90%);
+$background                 : #f6f9fa;
+$background-light           : #ffffff;
+$background-lighter        : #fbfcfd;
+$text                      : #1d2b36;
+$text-muted                : #52626e;
+$link                      : #0f6e8c;
+$link-dark                 : $accent-color;
+$link-light                : mix(#fff, #0f6e8c, 20%);
+$footer                    : #e2eef1;
+$border                    : mix(#fff, #1d2b36, 80%);
+$border-dark               : mix(#fff, #1d2b36, 62%);
+
+/* Color codes used for the site */
+$danger-color               : #c0392b;
+$info-color                 : #0f6e8c;
+$notice-color               : #3fa7b8;
+$success-color              : #2e9e6b;
+$warning-color              : #e0a030;
+
+/* Other basic settings for the template */
+$border-radius              : 6px;
+$box-shadow                 : 0 1px 2px rgba(11, 79, 108, 0.15);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Light theme for the site */
+:root {
+  --global-base-color                 : #{$primary-color};
+  --global-bg-color                   : #{$background};
+  --global-footer-bg-color            : #{$footer};
+  --global-border-color               : #{$border};
+  --global-dark-border-color          : #{$border-dark};
+  --global-code-background-color      : #{$background-light};
+  --global-code-text-color            : #{$darker-primary-color};
+  --global-fig-caption-color          : #{$text-muted};
+  --global-link-color                 : #{$link};
+  --global-link-color-hover           : #{$link-dark};
+  --global-link-color-visited         : #{$link-light};
+  --global-masthead-link-color        : #{$primary-color};
+  --global-masthead-link-color-hover  : #{$accent-color};
+  --global-text-color                 : #{$text};
+  --global-text-color-light           : #{$text-muted};
+  --global-thead-color                : #{$lighter-primary-color};
+}
+
+footer {
+  color: #{$text};
+}

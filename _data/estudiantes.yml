@@ -1,0 +1,128 @@
+# Estudiantes que aparecen en /estudiantes/
+#
+# Para agregar o actualizar a alguien:
+#   1. Guarda su foto en images/estudiantes/ (cuadrada, ~600x600 px, .jpg)
+#   2. Escribe el nombre del archivo en "foto" (ej. foto: violeta-vera.jpg)
+#   3. Escribe en "descripcion" 2-3 líneas sobre su trabajo (en sus palabras)
+#      y su traducción en "descripcion_en" (versión en inglés del sitio)
+# Si "foto" está vacío, la tarjeta muestra sus iniciales.
+
+- grupo: "Doctorado"
+  grupo_en: "PhD"
+  personas:
+    - nombre: "Violeta Cassandra Vera Cuevas"
+      foto:
+      programa: "Doctorado en Ciencias (Ecología), CIBNOR (2025–)"
+      rol: "Co-tutora"
+      proyecto: "Uso de ADN ambiental para el monitoreo de la biodiversidad y su relación con el impacto humano en el Parque Nacional Cabo Pulmo"
+      descripcion: "Usa metabarcoding de ADN ambiental para monitorear la biodiversidad del arrecife de Cabo Pulmo y distinguir si los cambios en la comunidad se deben a presiones humanas locales, a eventos climáticos extremos o a variación natural."
+      programa_en: "PhD in Science (Ecology), CIBNOR"
+      rol_en: "Thesis committee member"
+      proyecto_en: "Using environmental DNA to monitor biodiversity and its relationship with human impact in Cabo Pulmo National Park"
+      descripcion_en: "Uses eDNA metabarcoding to monitor biodiversity on the Cabo Pulmo reef and to tell apart changes driven by local human pressures, extreme climate events or natural variation."
+
+- grupo: "Maestría"
+  grupo_en: "MSc"
+  personas:
+    - nombre: "María Fernanda Fernández González"
+      foto: maria-fernanda-fernandez.jpg
+      programa: "Maestría en Ciencias (Biología Marina), CIBNOR"
+      rol: "Codirectora, con el Dr. Fausto Valenzuela Quiñonez"
+      proyecto: "Variación del microbioma epibionte de <i>Sargassum</i> holopelágico en el Caribe mexicano"
+      descripcion: "Estudia las comunidades microbianas que viven sobre el sargazo a lo largo de un gradiente latitudinal, usando metabarcoding del gen 16S para separar el efecto del hospedero y del ambiente oceánico."
+      programa_en: "MSc in Science (Marine Biology), CIBNOR"
+      rol_en: "Co-advisor, with Dr. Fausto Valenzuela Quiñonez"
+      proyecto_en: "Variation of the epibiont microbiome of holopelagic <i>Sargassum</i> in the Mexican Caribbean"
+      descripcion_en: "Studies the microbial communities living on sargassum along a latitudinal gradient, using 16S metabarcoding to separate the effects of the host and the ocean environment."
+    - nombre: "Estefanía Rodríguez Jacinto"
+      foto: estefania-rodriguez.jpg
+      programa: "Maestría, CICIMAR-IPN"
+      rol: "Codirectora, con el Dr. Francisco Javier García Rodríguez"
+      proyecto: "Composición espacial y temporal de la ictiofauna de la Ensenada de La Paz con base en el análisis de ADN ambiental"
+      descripcion: "Caracteriza a los peces de la Ensenada de La Paz, una laguna costera con manglares y zona de crianza, mediante metabarcoding de 12S a lo largo de su gradiente ambiental."
+      programa_en: "MSc, CICIMAR-IPN"
+      rol_en: "Co-advisor, with Dr. Francisco Javier García Rodríguez"
+      proyecto_en: "Spatial and temporal composition of the fish fauna of the Ensenada de La Paz based on environmental DNA"
+      descripcion_en: "Characterizes the fishes of the Ensenada de La Paz, a mangrove-fringed coastal lagoon and nursery area, using 12S metabarcoding along its environmental gradient."
+    - nombre: "Ninel Rivera Baxin"
+      foto: ninel-rivera.jpg
+      programa: "Maestría, CIBNOR"
+      rol: "Codirectora"
+      proyecto: "Tesis dentro del proyecto MAR-Gen Caribe (metabarcoding en arrecifes del Caribe mexicano)"   # TODO: agregar título de tesis
+      descripcion: ""
+      programa_en: "MSc, CIBNOR"
+      rol_en: "Co-advisor"
+      proyecto_en: "Thesis within the MAR-Gen Caribe project (metabarcoding on Mexican Caribbean reefs)"
+      descripcion_en: ""
+    - nombre: "Sofía Fonseca Yépez"
+      foto:
+      programa: "Maestría en Ciencias (Biología Marina), CIBNOR"
+      rol: "Co-tutora"
+      proyecto: "Análisis metagenómico de microeucariotas en la zona mínima de oxígeno del Pacífico tropical nororiental"
+      descripcion: "Explora la diversidad de microeucariotas en una de las zonas mínimas de oxígeno más extensas del océano y su relación con las variables ambientales."
+      programa_en: "MSc in Science (Marine Biology), CIBNOR"
+      rol_en: "Thesis committee member"
+      proyecto_en: "Metagenomic analysis of microeukaryotes in the oxygen minimum zone of the Eastern Tropical North Pacific"
+      descripcion_en: "Explores microeukaryote diversity in one of the largest oxygen minimum zones of the ocean and its relationship with environmental variables."
+
+- grupo: "Licenciatura"
+  grupo_en: "Undergraduate"
+  personas:
+    - nombre: "Rosa Icela Burciaga de la Rocha"
+      foto: rosa-burciaga.jpg
+      programa: "Licenciatura, UABCS — servicio social y estancia (2026)"
+      rol: "Asesora"
+      proyecto: "Patrones temporales y espaciales de la actividad acústica de la vaquita marina (<i>Phocoena sinus</i>) en la Zona de Tolerancia Cero, 2022 a 2026"
+      descripcion: "Utiliza datos publicados en los reportes del monitoreo acústico de la vaquita marina (2022–2026) para analizar cómo varía su actividad acústica con la hora del día, la marea y el espacio dentro de la Zona de Tolerancia Cero. Los resultados servirán para orientar el diseño del muestreo de ADN ambiental."
+      programa_en: "Undergraduate, UABCS — social service and research stay (2026)"
+      rol_en: "Advisor"
+      proyecto_en: "Temporal and spatial patterns of vaquita (<i>Phocoena sinus</i>) acoustic activity in the Zero Tolerance Area, 2022–2026"
+      descripcion_en: "Uses published data from the vaquita acoustic monitoring reports (2022–2026) to analyze how vaquita acoustic activity varies with time of day, tide and space within the Zero Tolerance Area. The results will help guide environmental DNA sampling design."
+
+- grupo: "Estancias de investigación"
+  grupo_en: "Research visitors"
+  personas:
+    - nombre: "Gloria Cárdenas Pérez"
+      foto: gloria-cardenas.jpg
+      programa: "Universidad Veracruzana, estancia en el CIBNOR (septiembre–noviembre de 2026)"
+      rol: "Asesora de estancia"
+      proyecto: "Detección del tursión (<i>Tursiops truncatus</i>) con ADN ambiental y qPCR en el Golfo de México"
+      descripcion: "Diseñó y validó un ensayo de qPCR especie-específico (citocromo b) para detectar al tursión en muestras de agua del Golfo de México: validación <i>in silico</i>, estandarización, curva estándar y límites de detección y cuantificación."
+      programa_en: "Universidad Veracruzana, research stay at CIBNOR (September–November 2026)"
+      rol_en: "Host advisor"
+      proyecto_en: "Detecting the bottlenose dolphin (<i>Tursiops truncatus</i>) with eDNA and qPCR in the Gulf of Mexico"
+      descripcion_en: "Designed and validated a species-specific qPCR assay (cytochrome b) to detect bottlenose dolphins in water samples from the Gulf of Mexico: <i>in silico</i> validation, standardization, standard curve, and limits of detection and quantification."
+    - nombre: "Leonel Benito Santiago Sánchez"
+      foto: leonel-santiago.jpg
+      programa: "Maestría, Universidad del Mar (2026)"
+      rol: "Asesora de estancia"
+      proyecto: "Metabarcoding de ADN ambiental de peces mediante el marcador MiFish (12S rRNA)"
+      descripcion: "Aprendió el flujo completo de laboratorio para metabarcoding de peces: extracción de ADN ambiental, amplificación, preparación y control de calidad de bibliotecas."
+      programa_en: "MSc, Universidad del Mar (2026)"
+      rol_en: "Host advisor"
+      proyecto_en: "Fish eDNA metabarcoding with the MiFish marker (12S rRNA)"
+      descripcion_en: "Trained in the full lab workflow for fish metabarcoding: eDNA extraction, amplification, and library preparation and quality control."
+    - nombre: "Martín Fernando Encinas Yánez"
+      foto: martin-encinas.jpg
+      programa: "CICIMAR-IPN"
+      rol: "Asesora de estancia"
+      proyecto: "Microbioma bacteriano del dinoflagelado <i>Gymnodinium catenatum</i>"
+      descripcion: "Caracteriza las bacterias asociadas a este dinoflagelado formador de florecimientos algales nocivos, en distintas fases de crecimiento en cultivo."
+      programa_en: "CICIMAR-IPN"
+      rol_en: "Host advisor"
+      proyecto_en: "Bacterial microbiome of the dinoflagellate <i>Gymnodinium catenatum</i>"
+      descripcion_en: "Characterizes the bacteria associated with this harmful-algal-bloom-forming dinoflagellate at different growth phases in culture."
+
+- grupo: "Exalumnos"
+  grupo_en: "Alumni"
+  personas:
+    - nombre: "Ángel Isidro Campa Molina"
+      foto: angel-campa.jpg
+      programa: "Maestro en Ciencias, CIBNOR (2026)"
+      rol: "Codirectora, con el Dr. Fausto Valenzuela Quiñonez"
+      proyecto: "<a href='https://cibnor.repositorioinstitucional.mx/jspui/handle/1001/3122'>Elaboración y validación de una herramienta molecular para la detección de <i>Totoaba macdonaldi</i></a>"
+      descripcion: "Desarrolló y validó un ensayo de ADN ambiental para detectar a la totoaba, especie endémica del Golfo de California."
+      programa_en: "MSc, CIBNOR (2026)"
+      rol_en: "Co-advisor, with Dr. Fausto Valenzuela Quiñonez"
+      proyecto_en: "<a href='https://cibnor.repositorioinstitucional.mx/jspui/handle/1001/3122'>Development and validation of a molecular tool for detecting <i>Totoaba macdonaldi</i></a> (in Spanish)"
+      descripcion_en: "Developed and validated an eDNA assay to detect the totoaba, an endemic species of the Gulf of California."

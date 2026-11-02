@@ -1,14 +1,21 @@
 {% include base_path %}
+{% assign lang = page.lang | default: "es" %}
+{% if lang == "en" %}
+  {% assign nav = site.data.navigation.en %}{% assign home = "/en/" %}{% assign other_label = "ES" %}{% assign other_default = "/" %}
+{% else %}
+  {% assign nav = site.data.navigation.main %}{% assign home = "/" %}{% assign other_label = "EN" %}{% assign other_default = "/en/" %}
+{% endif %}
+{% assign other = page.translation | default: other_default %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
+          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == home %}selected{% endif %}">
+            <a href="{{ base_path }}{{ home }}">{{ site.title }}</a>
           </li>
-          {% for link in site.data.navigation.main %}
+          {% for link in nav %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
@@ -18,6 +25,9 @@
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
+          <li class="masthead__menu-item persist tail">
+            <a href="{{ base_path }}{{ other }}" lang="{{ other_label | downcase }}" title="{% if lang == 'en' %}Ver en español{% else %}View in English{% endif %}">{{ other_label }}</a>
+          </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>

@@ -1,0 +1,95 @@
+/* ==========================================================================
+   Estudiantes (tarjetas con foto)
+   ========================================================================== */
+
+.estudiantes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16em, 1fr));
+  gap: 1.5em;
+  margin: 1em 0 2em;
+}
+
+.estudiante {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.25em 1em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  background-color: var(--global-bg-color);
+}
+
+.estudiante__foto {
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.75em;
+}
+
+.estudiante__iniciales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  width: 4em;
+  height: 4em;
+  font-weight: bold;
+  color: var(--global-bg-color);
+  background-color: var(--global-link-color);
+}
+
+.estudiante__nombre {
+  margin: 0 0 0.25em;
+  font-size: 1.05em;
+}
+
+.estudiante__programa {
+  margin: 0 0 0.5em;
+  font-size: 0.8em;
+  color: var(--global-text-color-light);
+}
+
+.estudiante__proyecto {
+  margin: 0 0 0.5em;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.estudiante__descripcion {
+  margin: 0;
+  font-size: 0.85em;
+}
+
+/* ==========================================================================
+   Thumbnails in project and course lists (same size)
+   ========================================================================== */
+
+.archive__item-excerpt img {
+  display: block;
+  width: 18em;
+  max-width: 100%;
+  height: 11em;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-top: 0.5em;
+}
+
+/* Photo gallery: uniform grid, every thumbnail the same size */
+figure.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13em, 1fr));
+  gap: 0.6em;
+  > a {
+    width: auto !important;
+    display: block;
+  }
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    margin: 0;
+  }
+}

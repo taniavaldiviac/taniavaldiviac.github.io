@@ -1,0 +1,23 @@
+---
+title: "From genome to species assemblage"
+excerpt: "<b>2026–2028</b> · Ecological and evolutionary processes structuring the biodiversity of cryptobenthic fishes in the Gulf of California."
+collection: portfolio
+inicio: "2026-01"
+lang: en
+translation: /portfolio/8-genoma-ensamblaje/
+---
+
+**Basic and Frontier Science project CBF-2026-4124** (SECIHTI, 2026–2028), led by Dr. Fausto Valenzuela Quiñonez (CIBNOR), with researchers from CIBNOR, CICESE and UABCS.
+
+**"From genome to species assemblage: neutral, selective and functional evolutionary processes structuring biodiversity in marine environments"**
+
+Community ecology and evolutionary biology try to explain the same diversity patterns, but usually separately. This project tests how both levels are linked, using the **cryptobenthic fishes** of the Gulf of California as a model: small species tightly associated with their microhabitat, with low dispersal, and rarely detected by visual surveys.
+
+The project combines:
+* alpha and beta diversity of the fish assemblage from collections and **environmental DNA**;
+* multi-species population genomics (ddRAD);
+* whole genomes of selected species and transcriptomics to identify adaptive loci and their function.
+
+I participate as a postdoctoral researcher in the environmental DNA and genomics component.
+
+[← Back to research projects in my CV](/en/cv/#research-projects)

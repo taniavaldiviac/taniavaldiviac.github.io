@@ -1,0 +1,22 @@
+{% assign p = include.persona %}
+{% assign programa = p.programa %}{% assign rol = p.rol %}{% assign proyecto = p.proyecto %}{% assign descripcion = p.descripcion %}
+{% if page.lang == "en" %}
+  {% if p.programa_en %}{% assign programa = p.programa_en %}{% endif %}
+  {% if p.rol_en %}{% assign rol = p.rol_en %}{% endif %}
+  {% if p.proyecto_en and p.proyecto_en != "" %}{% assign proyecto = p.proyecto_en %}{% endif %}
+  {% if p.descripcion_en and p.descripcion_en != "" %}{% assign descripcion = p.descripcion_en %}{% endif %}
+{% endif %}
+<div class="estudiante">
+  {% if p.foto and p.foto != "" %}
+    <img class="estudiante__foto" src="{{ p.foto | prepend: '/images/estudiantes/' | relative_url }}" alt="{{ p.nombre }}" loading="lazy">
+  {% else %}
+    {% assign partes = p.nombre | split: " " %}
+    <div class="estudiante__foto estudiante__iniciales" aria-hidden="true">{{ partes[0] | slice: 0 }}{{ partes[1] | slice: 0 }}</div>
+  {% endif %}
+  <div class="estudiante__info">
+    <h3 class="estudiante__nombre">{{ p.nombre }}</h3>
+    <p class="estudiante__programa">{{ programa }}{% if rol and rol != "" %} · <em>{{ rol }}</em>{% endif %}</p>
+    {% if proyecto and proyecto != "" %}<p class="estudiante__proyecto">{{ proyecto }}</p>{% endif %}
+    {% if descripcion and descripcion != "" %}<p class="estudiante__descripcion">{{ descripcion }}</p>{% endif %}
+  </div>
+</div>
