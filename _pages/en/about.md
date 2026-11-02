@@ -8,7 +8,7 @@ translation: /
 
 I am a researcher committed to science and conservation, specializing in **environmental DNA methods (metabarcoding, qPCR and ddPCR)**, **population genetics and genomics**, **bioinformatics** and **statistical modeling**. My research has focused mainly on marine species across Mexico: seagrasses of the Mexican Caribbean, and fishes, cetaceans and invertebrates of the Gulf of California and the North Pacific Ocean.
 
-For the past nine years I have focused on developing and applying environmental DNA methods to detect marine species and characterize communities of conservation concern. This work is part of my commitment to applying scientific tools to practical problems in sustainability and in the use, management and preservation of natural resources.
+Since 2017 I have focused on developing and applying environmental DNA methods to detect marine species and characterize communities of conservation concern. This work is part of my commitment to applying scientific tools to practical problems in sustainability and in the use, management and preservation of natural resources.
 
 I am deeply interested in ecology and evolution: I explore the processes that shape biological diversity and species adaptation to different environments, integrating statistical, environmental and oceanographic modeling to understand these processes in complex marine ecosystems. A key area of my work is **connectivity** (functional and structural): how marine populations and communities are linked through dispersal in complex environments.
 
