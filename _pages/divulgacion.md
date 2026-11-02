@@ -30,5 +30,3 @@ Divulgación científica
 * **Podcast "Mutante: la ciencia cambiante"** (Radio UAEM, 2024), episodio "ADN ambiental en el Golfo de California" con Agustín Ávila Casanueva: la relevancia del ADN ambiental en la investigación de la vaquita marina y el Golfo de California, difundido en plataformas digitales y Radio UAEM.
 * **Seminario de posgrado en ecología marina**, CICESE (27 de abril de 2021): [video en Facebook](https://www.facebook.com/posgrado.ecologiamarina.1/videos/316292726731311).
 * Entrevista en Radio UABCS, Semana de Posgrado de Baja California (2013).
-
-![Póster "Buscando especies marinas con ADN ambiental en el Golfo de California" (eDNA Day, 2019)](/images/fotos/poster-buscando-especies-adn-ambiental.jpg)

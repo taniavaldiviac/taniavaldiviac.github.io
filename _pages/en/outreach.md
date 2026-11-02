@@ -33,5 +33,3 @@ Science communication
 * **"Mutante: la ciencia cambiante" podcast** (Radio UAEM, 2024), episode "Environmental DNA in the Gulf of California" with Agustín Ávila Casanueva: the role of eDNA in vaquita research and the Gulf of California, broadcast on digital platforms and Radio UAEM.
 * **Marine Ecology graduate seminar**, CICESE (April 27, 2021): [video on Facebook](https://www.facebook.com/posgrado.ecologiamarina.1/videos/316292726731311).
 * Interview on Radio UABCS, Baja California Graduate Week (2013).
-
-![Poster "Searching for marine species with environmental DNA in the Gulf of California" (eDNA Day, 2019; in Spanish)](/images/fotos/poster-buscando-especies-adn-ambiental.jpg)
