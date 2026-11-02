@@ -14,9 +14,10 @@ La ecología de comunidades y la biología evolutiva buscan explicar los mismos 
 
 El proyecto combina:
 * diversidad alfa y beta del ensamblaje de peces a partir de capturas y **ADN ambiental**;
+* una **base de datos de referencia de mitogenomas** de al menos cinco de las familias más representativas del ensamblaje (Apogonidae, Blenniidae, Chaenopsidae, Gobiidae, Labrisomidae, Tripterygiidae, entre otras), obtenidos por secuenciación de baja cobertura (*genome skimming*), para mejorar la asignación taxonómica del ADN ambiental;
 * genómica poblacional de múltiples especies co-distribuidas (ddRAD);
 * genomas completos de especies seleccionadas y transcriptómica, para identificar loci adaptativos y su función.
 
-Participo como investigadora posdoctoral en el componente de ADN ambiental y genómica.
+Participo como investigadora posdoctoral en el componente de ADN ambiental, mitogenomas de referencia y genómica.
 
 [← Volver a los proyectos de investigación en el CV](/cv/#proyectos-de-investigación)
