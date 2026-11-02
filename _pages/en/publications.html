@@ -22,11 +22,13 @@ translation: /publications/
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title_en | default: category[1].title }}</h2><hr />
+        <h2 class="pubs-cat">{{ category[1].title_en | default: category[1].title }}</h2>
+        <ul class="pubs-list">
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include archive-single-pub.html %}
     {% endfor %}
+    {% if title_shown %}</ul>{% endif %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}

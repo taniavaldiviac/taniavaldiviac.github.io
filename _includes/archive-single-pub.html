@@ -1,0 +1,12 @@
+{% assign en = false %}{% if page.lang == "en" %}{% assign en = true %}{% endif %}
+{% assign post_citation = post.citation %}{% assign post_title = post.title %}{% assign post_venue = post.venue %}
+{% if en %}
+  {% if post.title_en %}{% assign post_title = post.title_en %}{% endif %}
+  {% if post.venue_en %}{% assign post_venue = post.venue_en %}{% endif %}
+  {% if post.citation_en %}{% assign post_citation = post.citation_en %}{% endif %}
+{% endif %}
+{% assign title = post_title | markdownify | remove: "<p>" | remove: "</p>" | strip %}
+<li class="pub">
+  <span class="pub__title">{% if post.paperurl %}<a href="{{ post.paperurl }}">{{ title }}</a>{% else %}{{ title }}{% endif %}</span>
+  <span class="pub__meta">{% if post_citation %}{{ post_citation }}{% else %}<i>{{ post_venue }}</i>, {{ post.date | date: "%Y" }}{% endif %}{% if post.pdfurl %} · <a href="{{ post.pdfurl }}">{% if en %}PDF (open access){% else %}PDF (acceso abierto){% endif %}</a>{% endif %}</span>
+</li>
