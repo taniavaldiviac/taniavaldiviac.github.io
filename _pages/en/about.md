@@ -10,11 +10,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a researcher committed to science and conservation, specializing in **environmental DNA methods (metabarcoding, qPCR and ddPCR)**, **population genetics and genomics**, **bioinformatics** and **statistical modeling**. My research has focused mainly on marine species across Mexico: seagrasses of the Mexican Caribbean, and fishes, cetaceans and invertebrates of the Gulf of California and the North Pacific Ocean.
+I am a researcher in **marine biodiversity and ecology**. I study animal diversity in Mexico's marine and coastal environments, mainly fishes, cetaceans and invertebrates, through **molecular systematics**, **population and community ecology**, and **evolutionary biology and biogeography**. My work has focused on the Gulf of California, the Mexican Caribbean and the North Pacific.
 
-Since 2017 I have focused on developing and applying environmental DNA methods to detect marine species and characterize communities of conservation concern. This work is part of my commitment to applying scientific tools to practical problems in sustainability and in the use, management and preservation of natural resources.
+I combine **field and laboratory work** in marine environments (oceanographic expeditions, scientific diving, visual surveys and specimen collection) with contemporary tools to identify and monitor organisms: DNA barcoding, **environmental DNA** (metabarcoding, qPCR and ddPCR) and population genomics. Since 2017 I have applied these methods to describe fish and marine mammal communities and to monitor priority species for conservation, such as the vaquita and the totoaba.
 
-I am deeply interested in ecology and evolution: I explore the processes that shape biological diversity and species adaptation to different environments, integrating statistical, environmental and oceanographic modeling to understand these processes in complex marine ecosystems. A key area of my work is **connectivity** (functional and structural): how marine populations and communities are linked through dispersal in complex environments.
+I integrate these data with **quantitative analyses** and statistical, environmental and oceanographic modeling to understand how organisms and communities respond to environmental variability, global change and human impacts. A central theme of my work is **connectivity**: how marine populations are linked through dispersal across complex seascapes. I am also committed to teaching and to training undergraduate and graduate students in the field, the lab and data analysis.
 
 Research lines
 ======

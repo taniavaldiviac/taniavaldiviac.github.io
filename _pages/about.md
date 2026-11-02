@@ -5,11 +5,11 @@ author_profile: true
 translation: /
 ---
 
-Soy una investigadora comprometida con la ciencia y la conservación, especializada en **métodos basados en ADN ambiental (metabarcoding, qPCR y ddPCR)**, **genética y genómica de poblaciones**, **bioinformática** y **modelación estadística**. Mi investigación se ha centrado principalmente en el estudio de especies marinas en diferentes regiones de México: pastos marinos del Caribe mexicano y peces, cetáceos e invertebrados del golfo de California y del océano Pacífico Norte.
+Soy investigadora en **biodiversidad y ecología marina**. Estudio la diversidad animal de los ambientes marinos y costeros de México, sobre todo peces, cetáceos e invertebrados, desde la **sistemática molecular**, la **ecología de poblaciones y comunidades** y la **biología evolutiva y la biogeografía**. He trabajado principalmente en el Golfo de California, el Caribe mexicano y el Pacífico Norte.
 
-Desde 2017 me he enfocado en el desarrollo y aplicación de métodos basados en ADN ambiental para detectar especies marinas y caracterizar comunidades de organismos de relevancia para la conservación. Este esfuerzo forma parte de mi compromiso con la aplicación de herramientas científicas a problemas prácticos relacionados con la sostenibilidad y el uso, manejo y preservación de recursos naturales.
+Combino el **trabajo de campo y laboratorio** en ambientes marinos (expediciones oceanográficas, buceo científico, censos visuales y colectas) con herramientas contemporáneas para identificar y monitorear organismos: códigos de barras de ADN, **ADN ambiental** (metabarcoding, qPCR y ddPCR) y genómica de poblaciones. Desde 2017 aplico estos métodos para describir comunidades de peces y mamíferos marinos y para monitorear especies prioritarias para la conservación, como la vaquita marina y la totoaba.
 
-Tengo un profundo interés en la ecología y la evolución: exploro los procesos que moldean la diversidad biológica y la adaptación de especies a diferentes entornos, integrando herramientas estadísticas y de modelación ambiental y oceanográfica para entender estos procesos en ecosistemas marinos complejos. Una de mis áreas clave es el estudio de la **conectividad** (funcional y estructural): cómo las poblaciones y comunidades marinas se relacionan entre sí a través de la dispersión en ambientes complejos.
+Integro estos datos con **análisis cuantitativos** y modelación estadística, ambiental y oceanográfica para entender cómo responden los organismos y las comunidades a la variabilidad ambiental, al cambio global y a los impactos humanos. Un eje de mi trabajo es la **conectividad**: cómo se vinculan las poblaciones marinas a través de la dispersión en paisajes marinos complejos. Me interesa también la docencia y la formación de estudiantes de licenciatura y posgrado en el campo, el laboratorio y el análisis de datos.
 
 Líneas de investigación
 ======
