@@ -1,11 +1,3 @@
-{% include base_path %}
-
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
 {% assign post_title = post.title %}{% assign post_venue = post.venue %}{% assign post_type = post.type %}{% assign post_location = post.location %}
 {% if page.lang == "en" %}
   {% if post.title_en %}{% assign post_title = post.title_en %}{% endif %}
@@ -13,37 +5,8 @@
   {% if post.type_en %}{% assign post_type = post.type_en %}{% endif %}
   {% if post.location_en %}{% assign post_location = post.location_en %}{% endif %}
 {% endif %}
-{% if post.id %}
-  {% assign title = post_title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post_title %}
-{% endif %}
-
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
-      {% else %}
-        {{ title }}
-      {% endif %}
-    </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{ post_type }}, {{ post_venue }}{% if post_location != '' %}, {{ post_location }}{% endif %} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
-  </article>
-</div>
+{% assign title = post_title | markdownify | remove: "<p>" | remove: "</p>" | strip %}
+<li class="talk">
+  <span class="talk__title">{% if post.link %}<a href="{{ post.link }}">{{ title }}</a>{% else %}{{ title }}{% endif %}</span>
+  <span class="talk__meta">{% if post_type %}{{ post_type }}{% endif %}{% if post_venue %} · {{ post_venue }}{% endif %}{% if post_location and post_location != '' %}, {{ post_location }}{% endif %}</span>
+</li>

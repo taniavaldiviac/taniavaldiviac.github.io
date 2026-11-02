@@ -12,6 +12,15 @@ translation: /en/talks/
 
 {% endif %}
 
+{% assign current_year = "" %}
 {% for post in site.talks reversed %}
+  {% assign y = post.date | date: "%Y" %}
+  {% if y != current_year %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h2 class="talks-year">{{ y }}</h2>
+    <ul class="talks-list">
+    {% assign current_year = y %}
+  {% endif %}
   {% include archive-single-talk.html %}
+  {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
