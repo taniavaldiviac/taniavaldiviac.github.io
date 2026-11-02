@@ -1,11 +1,8 @@
 ---
-permalink: /
+permalink: /es/
 title: "Bienvenida/o a mi página personal"
 author_profile: true
-translation: /en/
-redirect_from:
-  - /about/
-  - /about.html
+translation: /
 ---
 
 Soy una investigadora comprometida con la ciencia y la conservación, especializada en **métodos basados en ADN ambiental (metabarcoding, qPCR y ddPCR)**, **genética y genómica de poblaciones**, **bioinformática** y **modelación estadística**. Mi investigación se ha centrado principalmente en el estudio de especies marinas en diferentes regiones de México: pastos marinos del Caribe mexicano y peces, cetáceos e invertebrados del golfo de California y del océano Pacífico Norte.

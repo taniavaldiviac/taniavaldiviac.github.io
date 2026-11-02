@@ -1,9 +1,13 @@
 ---
-permalink: /en/
+permalink: /
 title: "Welcome to my personal page"
 author_profile: true
 lang: en
-translation: /
+translation: /es/
+redirect_from:
+  - /en/
+  - /about/
+  - /about.html
 ---
 
 I am a researcher committed to science and conservation, specializing in **environmental DNA methods (metabarcoding, qPCR and ddPCR)**, **population genetics and genomics**, **bioinformatics** and **statistical modeling**. My research has focused mainly on marine species across Mexico: seagrasses of the Mexican Caribbean, and fishes, cetaceans and invertebrates of the Gulf of California and the North Pacific Ocean.

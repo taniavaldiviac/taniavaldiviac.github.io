@@ -1,9 +1,9 @@
 {% include base_path %}
 {% assign lang = page.lang | default: "es" %}
 {% if lang == "en" %}
-  {% assign nav = site.data.navigation.en %}{% assign home = "/en/" %}{% assign other_label = "ES" %}{% assign other_default = "/" %}
+  {% assign nav = site.data.navigation.en %}{% assign home = "/" %}{% assign other_label = "ES" %}{% assign other_default = "/es/" %}
 {% else %}
-  {% assign nav = site.data.navigation.main %}{% assign home = "/" %}{% assign other_label = "EN" %}{% assign other_default = "/en/" %}
+  {% assign nav = site.data.navigation.main %}{% assign home = "/es/" %}{% assign other_label = "EN" %}{% assign other_default = "/" %}
 {% endif %}
 {% assign other = page.translation | default: other_default %}
 <div class="masthead">
